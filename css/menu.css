@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.navbar {
+  margin: 0;
+  padding: 2px;
+  background-color: black;
+  overflow: hidden;
+  height: 65px;
+}
+
+/* Style for the brand name on the right */
+.brand-name {
+  float: left;
+  color: white;
+  padding: 10px 20px;
+}
+
+/* Style for the cross sign (hamburger menu) on the left */
+.menu-icon {
+  float: right;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.bodyb {
+  background-color: #fcfbfe;
+}
+/* .logotop {
+  text-align: left;
+  font-size: 30px;
+  color: whitesmoke;
+} */
+.navbarmenu {
+  margin-top: 0%;
+  width: 100%;
+  background-color: #082028;
+  padding: 2px;
+}
+.container {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+}
+.text-side {
+  padding: 20px;
+}
+
+.text {
+  font-size: 45px;
+  margin: 30px 0;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.text:hover {
+  color: blue; /* Change to your desired hover color */
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+.image-side {
+  flex: 1;
+  padding: 20px;
+}
+.image {
+  max-width: 50%;
+  height: auto;
+  transition: transform 0.3s;
+}
+.image:hover {
+  transform: scale(1.1);
+}
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 50px;
+  cursor: pointer;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 3px;
+}
+.social-icons {
+  margin-top: 3px;
+}
+.social-icon {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+.footer {
+  background-size: cover;
+
+  text-align: center;
+  padding: 20px 0;
+}
+
+.social-icons {
+  margin-top: 10px;
+  margin-left: 300px;
+}
+
+.social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 45px;
+  text-decoration: none;
+}
+footer-links {
+  margin-top: 40px;
+}
+
+.footer-links a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}

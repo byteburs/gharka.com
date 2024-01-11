@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <title>Menu</title>
+  <link rel="stylesheet" type="text/css" href="css/menu.css" />
+</head>
+
+<body>
+  <!-- <div class="navbarmenu">  -->
+  <!-- <h1 class="logotop">
+          PURELY RETRO
+          <span><img src="img/gharka.pngimg-c.png" alt="" height="40px" /></span>
+        </h1>   -->
+
+  <!-- </div> -->
+  <div class="navbar">
+    <!-- Hamburger menu (cross sign) on the left -->
+    <div class="menu-icon">
+      <a id="cancelbutton" class="close-button">&times;</a>
+    </div>
+
+    <!-- Brand name on the right -->
+    <div class="brand-name">
+      <!-- <img src="C:\Users\User\Downloads\1logo.png" /> -->
+      <h6 class="logotop">
+        Gharka <span><img src="img/gharka.pngimg-c.png" height="20px" alt="" /></span>
+      </h6>
+
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="image-side">
+      <img class="image" id="0" src="img/gharka.png" style="display: none" alt="Image 1" />
+      <img class="image" id="1" src="img/gharka2.png" style="display: none" alt="Image 2" />
+      <img class="image" id="2" src="img/gharka3.png" style="display: none" alt="Image 3" />
+    </div>
+    <div class="text-side">
+      <div class="text" id="t0">OUR STORY</div>
+      <hr />
+      <div class="text" id="t1">Get mixing</div>
+      <hr />
+      <div class="text" id="t2">What's on</div>
+
+
+      <hr />
+      <div class="text" id="t2"><a style="text-decoration: none; color: black;"
+          href="https://book.stripe.com/test_5kA4ixgi2eBV3pS8ww">Buy now</a></div>
+    </div>
+  </div>
+
+
+
+  </div>
+  <div class="footer" style="background-color: #965d40">
+    <div>
+      <!-- <h1 style="text-align: center; font: size 40px; color: whitesmoke">
+          PURELY RETRO
+          <span><img src="img/gharka.pngimg-c.png" alt="" height="80px" /></span>
+        </h1>
+
+        <hr style="color: black" />
+       
+        <br /> -->
+      <br>
+      <br>
+      <div class="social-icons">
+        <a href="https://www.facebook.com">
+          <i class="fab fa-facebook"></i></a> &nbsp;&nbsp;
+        &nbsp;
+        <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;
+        &nbsp;
+        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+        <!-- Add more social media links and icons as needed -->
+        <!-- </div>
+        <br />
+        <br />
+        <hr />
+        <div class="footer-links">
+          <a href="contact.html">CONTACT US</a> |
+          <a href="terms.html">TERMS & CONDITIONS</a> |
+          <a href="privacy.html">PRIVACY POLICY</a> |
+          <a href="cookies.html">COOKIES NOTICE</a>
+        </div>
+        <p>&copy; 2023 PurelyRetro. All rights reserved.</p>
+      </div> -->
+      </div>
+      <script>
+        let img0 = document.getElementById("0");
+        img0.style.display = "block";
+        document.getElementById("t0").onmouseover = () => {
+          let img0 = document.getElementById("0");
+          img0.style.display = "block";
+          let img1 = document.getElementById("1");
+          img1.style.display = "none";
+          let img2 = document.getElementById("2");
+          img2.style.display = "none";
+        };
+        document.getElementById("t1").onmouseover = () => {
+          let img0 = document.getElementById("0");
+          img0.style.display = "none";
+          let img1 = document.getElementById("1");
+          img1.style.display = "block";
+          let img2 = document.getElementById("2");
+          img2.style.display = "none";
+        };
+        document.getElementById("t2").onmouseover = () => {
+          let img0 = document.getElementById("0");
+          img0.style.display = "none";
+          let img1 = document.getElementById("1");
+          img1.style.display = "none";
+          let img2 = document.getElementById("2");
+          img2.style.display = "block";
+        };
+        document.getElementById("cancelbutton").onclick = () => {
+          window.location.href = "index.html";
+        }
+      </script>
+</body>
+
+</html>

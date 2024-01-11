@@ -1,0 +1,43 @@
+.carousel-container {
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  height: 300px; /* Adjust the height as needed */
+  overflow: hidden;
+  position: relative;
+}
+
+.scrollbar {
+  width: 100%;
+  overflow-x: scroll;
+  scrollbar-width: thin;
+}
+
+.scroll-thumb {
+  height: 6px;
+  background-color: gray;
+}
+
+.carousel-cards {
+  display: flex;
+}
+
+.card {
+  flex: 0 0 300px; /* Adjust the width of each card */
+  border: 1px solid #ccc;
+  margin-right: 10px; /* Add spacing between cards */
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  padding: 10px;
+}
